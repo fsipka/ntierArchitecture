@@ -20,8 +20,10 @@ Each layer is cleanly separated and connected via Dependency Injection.
 
 Install the required templates and CLI tool in one command:
 
-```bash
-dotnet new install FSipka.ModelTemplates::1.0.0 && dotnet new install FSipka.Templates::1.0.0 && dotnet tool install --global FSipka.CLI --version 1.1.3
+```powershell
+dotnet new install FSipka.ModelTemplates::1.0.0;
+dotnet new install FSipka.Templates::1.0.0;
+dotnet tool install --global FSipka.CLI --version 1.1.3
 ```
 
 ---
