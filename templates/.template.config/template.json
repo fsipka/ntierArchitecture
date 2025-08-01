@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "FatihSipka",
+  "classifications": ["N-Tier", "Model", "CRUD"],
+  "identity": "Sipka.NTier.Model",
+  "name": "Sipka N-Tier Model Generator",
+  "shortName": "fsipka-model",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  },
+  "sourceName": "ModelName",
+  "symbols": {
+    "Namespace": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "YourProject",
+      "description": "Root namespace of your project",
+      "replaces": "Namespace",
+         "fileRename": "Namespace"
+    }
+  },
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "modifiers": [
+        {
+          "rename": {
+            "Model.cs": "Namespace.Core/Models/ModelName.cs",
+            "IRepository.cs": "Namespace.Core/Repositories/IModelNameRepository.cs",
+            "Repository.cs": "Namespace.Repository/Repositories/ModelNameRepository.cs",
+            "IService.cs": "Namespace.Core/Services/IModelNameService.cs",
+            "Service.cs": "Namespace.Service/Services/ModelNameService.cs",
+            "Controller.cs": "Namespace.API/Controllers/ModelNamesController.cs",
+            "Configuration.cs": "Namespace.Repository/Configurations/ModelNameConfiguration.cs",
+            "Dto.cs": "Namespace.Core/DTOs/ModelNameDto.cs",
+            "CreateDto.cs": "Namespace.Core/DTOs/CreateDTOs/ModelNameCreateDto.cs",
+            "DetailDto.cs": "Namespace.Core/DTOs/DetailDTOs/ModelNameDetailDto.cs",
+            "UpdateDto.cs": "Namespace.Core/DTOs/UpdateDTOs/ModelNameUpdateDto.cs",
+            "CreateDtoValidator.cs":"Namespace.Service/Validations/ModelNameCreateDtoValidator.cs",
+            "UpdateDtoValidator.cs":"Namespace.Service/Validations/ModelNameUpdateDtoValidator.cs"
+
+          }
+        }
+      ]
+    }
+  ]
+}

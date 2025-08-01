@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "FatihSipka",
+  "classifications": ["Web", "N-Tier", "ASP.NET Core", "JWT", "Entity Framework"],
+  "identity": "Sipka.NTier.Template",
+  "name": "Sipka N-Tier Template with Authentication",
+  "shortName": "fsipka",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "sourceName": "SipkaTemplate",
+  "preferNameDirectory": true
+}

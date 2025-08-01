@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SipkaTemplate.API", "SipkaTemplate.API\SipkaTemplate.API.csproj", "{B81CB711-3A4E-466F-9CDB-5A0087050FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SipkaTemplate.Core", "SipkaTemplate.Core\SipkaTemplate.Core.csproj", "{050FCEA5-2003-4C3C-8B1F-E42F4236F878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SipkaTemplate.Repository", "SipkaTemplate.Repository\SipkaTemplate.Repository.csproj", "{69CD940F-28EA-45E5-A88A-CE4A6F7CC335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SipkaTemplate.Service", "SipkaTemplate.Service\SipkaTemplate.Service.csproj", "{8062E8F5-118B-4864-9989-80043F3E55B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82ABC5E7-4E82-4284-8D07-13B8D736D6B9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B81CB711-3A4E-466F-9CDB-5A0087050FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81CB711-3A4E-466F-9CDB-5A0087050FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81CB711-3A4E-466F-9CDB-5A0087050FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81CB711-3A4E-466F-9CDB-5A0087050FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{050FCEA5-2003-4C3C-8B1F-E42F4236F878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050FCEA5-2003-4C3C-8B1F-E42F4236F878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050FCEA5-2003-4C3C-8B1F-E42F4236F878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050FCEA5-2003-4C3C-8B1F-E42F4236F878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CD940F-28EA-45E5-A88A-CE4A6F7CC335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CD940F-28EA-45E5-A88A-CE4A6F7CC335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CD940F-28EA-45E5-A88A-CE4A6F7CC335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CD940F-28EA-45E5-A88A-CE4A6F7CC335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8062E8F5-118B-4864-9989-80043F3E55B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8062E8F5-118B-4864-9989-80043F3E55B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8062E8F5-118B-4864-9989-80043F3E55B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8062E8F5-118B-4864-9989-80043F3E55B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
