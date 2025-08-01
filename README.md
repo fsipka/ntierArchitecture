@@ -23,7 +23,7 @@ Install the required templates and CLI tool in one command:
 ```powershell
 dotnet new install FSipka.ModelTemplates::1.0.0;
 dotnet new install FSipka.Templates::1.0.0;
-dotnet tool install --global FSipka.CLI --version 1.1.3
+dotnet tool install --global FSipka.CLI --version 1.1.3;
 ```
 
 ---
